@@ -1,0 +1,21 @@
+header, footer {
+    height: 20%;
+    background-color: grey;
+}
+.main-content {
+    height: 50%
+}
+
+.pagetwo{
+    height: 50%;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 6em;
+}
+#pageone{
+    height: 50%;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 6em;
+    background-color: cadetblue;
+}
