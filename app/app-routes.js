@@ -2,7 +2,7 @@ angular.module('twopages')
 .config(function($stateProvider){
     
     $stateProvider
-    .state('home', {
+    .state('homepage', {
         url:'',
         templateUrl: 'app/coms/home.html'
     })
