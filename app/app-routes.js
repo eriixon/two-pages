@@ -4,18 +4,20 @@ angular.module('twopages')
     $stateProvider
     .state('homepage', {
         url:'',
-        templateUrl: 'app/coms/home.html'
+        templateUrl: 'app/coms/home.html',
+        controller: 'HomeController',
+        controllerAs: 'hc'
     })
     .state('pageone',{
         url:'/pageone',
         templateUrl:'app/coms/pages/pageone.html',
         controller: 'PageOneCon',
-        controllerAs: 'poc'
+        controllerAs: 'po'
     })
     .state('pagetwo',{
         url:'/pagetwo',
         templateUrl: 'app/coms/pages/pagetwo.html',
         controller: 'PageTwoCon',
-        controllerAs: 'ptc'
+        controllerAs: 'pt'
     })
 })

@@ -8,13 +8,19 @@ header, footer {
 
 #homepage{
     height: 100%;
+    text-align: center;
+    font-size: 6em;
+    background-color: lightgreen;
 }
 #pageone{
     height: 100%;
+    text-align: center;
+    font-size: 6em;
+    background-color: lightskyblue;
 }
 #pagetwo{
     height: 100%;
     text-align: center;
     font-size: 6em;
-    background-color: lightgreen;
+    background-color: lightcoral;
 }
